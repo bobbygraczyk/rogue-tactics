@@ -40,151 +40,151 @@ export default function Home() {
         </h1>
 
         <Textbox>
-          <div class="board">
-            <div class="grid">
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+          <div className="board">
+            <div className="grid">
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
-              <div class="row odd">
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
-                <div class="game_cell"><div class="hover"></div></div>
+              <div className="row odd">
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
+                <div className="game_cell"><div className="hover"></div></div>
               </div>
               
               
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row odd">
-                <div class="game_cell select soil"><div class="hover hoverselect"></div></div>
-                <div class="game_cell select water"><div class="hover hoverselect"></div></div>
-                <div class="game_cell select road"><div class="hover hoverselect"></div></div>
-                <div class="game_cell select rock"><div class="hover hoverselect"></div></div>
+              <div className="row"></div>
+              <div className="row"></div>
+              <div className="row"></div>
+              <div className="row"></div>
+              <div className="row odd">
+                <div className="game_cell select soil"><div className="hover hoverselect"></div></div>
+                <div className="game_cell select water"><div className="hover hoverselect"></div></div>
+                <div className="game_cell select road"><div className="hover hoverselect"></div></div>
+                <div className="game_cell select rock"><div className="hover hoverselect"></div></div>
               </div>
-              <div class="selected">
+              <div className="selected">
               <p>SELECTED<br />PIECE</p>
-                <div class="game_cell soil demo">
+                <div className="game_cell soil demo">
                 </div>
             </div>
             </div>
