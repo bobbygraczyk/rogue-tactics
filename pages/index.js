@@ -125,7 +125,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
-    <script src="/functions.js"></script>
     </Layout>
   )
 }
