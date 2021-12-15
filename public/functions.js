@@ -1,19 +1,36 @@
-let type;  
-let cells = document.getElementsByClassName("game_cell");
-let demo = document.getElementsByClassName("demo")[0];
-for (let i = 0; i < cells.length; i++) {
-    cells[i].onclick = ((e) => {
-    let elem = e.target.parentElement;
-    if (elem.classList.contains("select")) {
-        type = elem.classList[2];
-        demo.className = "game_cell"
-        demo.classList.add(type, "demo")
-        console.log(type);
-    } else {
-        elem.className = "game_cell"
-        elem.classList.add(type)
+// let row = "";
+// cells = "";
+// let grid = "";
+// for (let i = 0; i < 24; i++) {
+//     cells = "";
+//     let left = 0;
+//     let odd;
+//     if (i % 2 == 0) {
+//         odd = " odd";
+//     } else {
+//         odd = "";
+//     }
 
-        console.log(elem)
-    }
-    })
-}
+//     if (i <= 8) {
+//         for (let x = 0; x <= i; x++) {
+//             cells += '<div class="game_cell"><div class="hover"></div></div>'
+//         }
+//     } else if (i <= 16) {
+//         for (let x = 0; x < 8; x++) {
+//             cells += '<div class="game_cell"><div class="hover"></div></div>'
+//         }
+//     } else {
+//         for (let x = (24 - i); x > 0; x--) {
+//             cells += '<div class="game_cell"><div class="hover"></div></div>'
+//         }
+//     }
+
+//     row = '<div class="row' + odd + '" style="left: ' + i * 8 + 'px;">' + cells + '</div>'
+
+//     grid += row;
+//}
+
+//console.log(grid);
+
+//document.getElementsByClassName("grid-container")[0].innerHTML = grid;
+

@@ -49,10 +49,7 @@ body {
 .row {
   height: 4px;
   display: block;
-}
-
-.odd {
-  padding-left: 8px;
+  position: relative;
 }
 
 .water {
@@ -70,9 +67,9 @@ body {
 .grid {
   width: 200px;
   height: 200px;
-  transform: scale(8);
+  transform: scale(6);
   position: relative;
-  top: 700px;
+  top: 500px;
   left: 700px;
 }
 
@@ -89,7 +86,17 @@ body {
   font-size: 3px;
   text-align: center;
   position: relative;
-  top: -85px;
-  right: -100px;
+  top: -65px;
+  right: -160px;
   width: 30px;
+}
+
+.grid-cont {
+  position: relative;
+  left: 300px;
+}
+
+.grid-container {
+  position: relative;
+  left: 100px;
 }
