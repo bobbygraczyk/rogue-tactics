@@ -5,12 +5,13 @@ body {
   padding: 0;
   margin: 0;
   image-rendering: pixelated;
+  --cell-size: 16px;
 }
 
 body {
   font-family: 'Press Start 2P', cursive;
   background-color: rgb(215, 255, 219);
-  filter: sepia(90%) hue-rotate(52deg);
+  filter: sepia(40%) hue-rotate(12deg);
   color: rgb(63, 63, 63);
   transform: perspective(9000px) translateZ(-9px);
 }
@@ -21,6 +22,74 @@ body {
 
 .border {
   border: 3px solid transparent;
-  border-image: url("https://github.com/bobbygraczyk/rogue-tactics/raw/master/public/set_2.png") 3 / 16px;
+  border-image: url("https://github.com/bobbygraczyk/rogue-tactics/raw/master/public/set_2.png") 4 / 16px;
   padding: 16px;
+}
+
+.game_cell, .soil {
+  background: url(../public/set_1.png) no-repeat;
+  background-position: 0px -1px;
+  height: 16px;
+  width: 16px;
+  background-size: 176px 170px;
+  display: inline-block;
+}
+
+.game_cell:hover > .hover {
+  background: url(../public/set_3.png) no-repeat;
+  background-size: 32px 25px;
+  background-position: 0px -16px;
+  height: 9px;
+  width: 16px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+}
+
+.row {
+  height: 4px;
+  display: block;
+}
+
+.odd {
+  padding-left: 8px;
+}
+
+.water {
+  background-position: calc(var(--cell-size) * -4) -1px;
+}
+
+.road {
+  background-position: calc(var(--cell-size) * -1) calc((var(--cell-size) * -4) + 4px);
+}
+
+.rock {
+  background-position: calc(var(--cell-size) * -2) -1px;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  transform: scale(8);
+  position: relative;
+  top: 700px;
+  left: 700px;
+}
+
+.board {
+  height: 800px;
+  width: 800px;
+}
+
+.select {
+  margin-right: 8px;
+}
+
+.selected {
+  font-size: 3px;
+  text-align: center;
+  position: relative;
+  top: -85px;
+  right: -100px;
+  width: 30px;
 }
